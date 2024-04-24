@@ -1,0 +1,109 @@
+body {
+    background-color: #e6f9e2; 
+    font-family: Arial, sans-serif; 
+}
+
+h1, h2, h3, li {
+    color: #333333; 
+}
+
+.nav-item a {
+    color: #005500; 
+    font-weight: bold;
+}
+
+.video-container {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.div-1, .div-2, footer {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #cccccc; 
+}
+
+footer {
+    background-color: #cccccc; 
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+
+body {
+    background-color: #e6f9e2; 
+    font-family: Arial, sans-serif; /* Keeps the general font but can be overridden as needed */
+}
+
+
+h1.title {
+    font-family: Georgia, serif;
+    text-align: center; 
+}
+
+
+.div-education {
+    text-align: center;
+    border: 2px solid #cccccc;
+    padding: 15px;
+    margin-top: 20px; 
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center; 
+    background-color: #f3f3f3; 
+}
+
+nav ul li {
+    display: inline; /* Display list items in a row */
+}
+
+.nav-item a {
+    font-family: 'Lato', sans-serif; /* Using the Lato font */
+    color: #005500; /* Dark green color for the text */
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 20px; /* Padding around the text */
+    border: 3px solid #008000; /* Optional: thick green border */
+    margin: 5px;
+    display: inline-block; 
+}
+
+
+.nav-item a:hover {
+    background-color: #e6f9e2; 
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack nav items vertically on small screens */
+        text-align: center; /* Center-align list items */
+    }
+
+    .nav-item a {
+        padding: 10px; /* Adjust padding */
+        display: block; /* Make links full width for easier tapping */
+    }
+}
+
+footer {
+    background-color: #cccccc; /* Light grey background */
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #999999; /* Adds a subtle border line on top */
+    position: relative; /* Ensures the footer is at the bottom of the content */
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px; /* Adds space between content and footer */
+}
+
+
+
+
+
